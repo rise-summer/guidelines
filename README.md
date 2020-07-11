@@ -51,10 +51,6 @@ You will be able to see a list of branch rules now. We recommend enabling the fi
 
 ![branch-rules](./images/branch-rules.png)
 
-## Using Projects
-
-## Automating Projects
-
 ## Code Style
 
 # General Github Guidelines
@@ -89,11 +85,35 @@ Labels help categorize your issues, so that team members can get a general idea 
 
 ### Projects
 
-An issue can be placed on a project board to indicate what component of the project it is related to. See more about using Project Boards!
+An issue can be placed on a project board to indicate what component of the project it is related to. See more about Using Project Boards!
 
 ### Linked Pull Requests
 
 Issues can be linked to specific pull requests. Often, this pull request should in some way reference the issue number. Once a pull request is linked to an issue, the issue will automatically be closed when the pull request is merged. See more in One Pull Request per Issue.
+
+## Using Projects
+
+Using project boards is a great way to track your overall progress on the different components of your product. Project boards can often be automated to update as your work progresses, helping with management and gauging "product health."
+
+To create a new Project, navigate to the **Projects** tab of the repository and use the **New project** button. Project names should be succinct and describe a component of your overall product (i.e. MVP, Server API, etc).
+
+![project-board](./images/project-board.png)
+
+If you have used tools like Trello, you can think of each "Project" you create as a Trello board relating to that component of your overall product. You can see in the below figure that a project board allows you to organize "cards" in different columns.
+
+![project-columns](./images/project-columns.png)
+
+Every card is either an issue or a pull request. By assigning cards to a project, we can associate issues and pull requests with components of the product. Project progress is then tracked based on how many issues/pull requests are left to be done and how many have already been completed.
+
+You can add cards to the project board by using the **Add card** button. Cards can then be dragged over into columns in the project board.
+
+![project-cards](./images/project-cards.png)
+
+## Automating Project Boards
+
+When creating your project, we recommend you set up your columns to be automated. You can do this by selecting the **Automated kanban** template when creating a new project. When automated, issues/pull requests on your project board will automatically move from column to column depending on the status of the issue/pull request. For example, a pull request in the "In Progress" column, will move to the "Done" column after it is merged and closed.
+
+![project-automation](./images/project-automation.png)
 
 ## Workflow: Commit Small, Commit Often
 
