@@ -51,14 +51,6 @@ You will be able to see a list of branch rules now. We recommend enabling the fi
 
 ![branch-rules](./images/branch-rules.png)
 
-## Issues
-
-## Assigning Issues
-
-## Labeling Issues
-
-## Linking Issues
-
 ## Using Projects
 
 ## Automating Projects
@@ -68,6 +60,40 @@ You will be able to see a list of branch rules now. We recommend enabling the fi
 # General Github Guidelines
 
 The following topics apply to all developers on the team, please take some time to review these to get an idea of good development practices.
+
+## Using Issues
+
+Issues are a great way to create, keep track of, and delegate action items for your project development. All issues are organized on your repository's issue board, available for your whole team to reference at any time.
+
+You can create a new issue with the **New issue** button on the issue board as shown below. Creating a new issue involves creating a headline (which will show up on the board) and an initial, more in depth description of what is needed to resolve the issue. In other words, what task is attached to the issue.
+
+![new-issue](./images/new-issue.png)
+
+Every issue comes with a discussion board (shown below), where you and your teammates can comment on the issue, update each other on progress, and reach conclusions. The great thing about having this discussion board on Github is that it records the entire lifecycle of the issue, meaning any new team member can understand where the issue started and where it is now just by viewing the discussion board. This removes need for reiterating conclusions amongst team members, meaning syncing up can be done independently.
+
+![issue-board](./images/issue-board.png)
+
+On the sidebar of any issue page, there are also some interesting features that can help with organization. These generally attach extra information to an issue, which further explains its status. They are highlighted and explained below.
+
+![issue-sidebar](./images/issue-sidebar.png)
+
+### Assignees
+
+You can delegate tasks to your team members by assigning them to issues. The assignees are indicated on the issue board, allowing all team members to know exactly what their responsibilities are.
+
+### Labels
+
+Labels help categorize your issues, so that team members can get a general idea of what an issue is related to before deciding to look further into it. You can create your own custom labels by clicking the **Labels** button on the issue board.
+
+![edit-labels](./images/edit-labels.png)
+
+### Projects
+
+An issue can be placed on a project board to indicate what component of the project it is related to. See more about using Project Boards!
+
+### Linked Pull Requests
+
+Issues can be linked to specific pull requests. Often, this pull request should in some way reference the issue number. Once a pull request is linked to an issue, the issue will automatically be closed when the pull request is merged. See more in One Pull Request per Issue.
 
 ## Workflow: Commit Small, Commit Often
 
