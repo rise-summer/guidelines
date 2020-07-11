@@ -9,34 +9,52 @@ Welcome to the RISE Github! RISE is a summer program created for students, by st
 
 This Github organization contains the code for each of our 7 teams' projects. Each team's individual repositories are monitored by RISE Directors and their respective Engineering Manager(s). Developers are allowed to contribute to repositories and RISE mentors are invited as outside collaborators with read-only access.
 
-## EM Github Guidelines
+# EM Github Guidelines
 
 The following topics of discussion are geared more towards Engineering Managers to help with creating an efficient project workflow. However, they can apply to all developers.
 
-### Branch Protection
+## Branch Protection
 
-### Issues
+To enforce code review and prevent merge mistakes, it is always good to protect your "master" branch. Github lets you do this by allowing you to require approval from other contriibutors before any pull request can be merged.
 
-### Assigning Issues
+You can find this option when you navigate to the **Settings** tab of your repository. From here, navigate to **Branches** and you will see a page that looks similar to the one shown in the figure below. Click the **Add rule** button to apply branch rules to your "master" branch.
 
-### Labeling Issues
+![branch-protection](./images/branch-protection.png)
 
-### Linking Issues
+You will be able to see a list of branch rules now. We recommend enabling the first two rules at the very least:
 
-### Using Projects
+- Require pull request reviews before merging
+  - All pull requests mus tbe approved before they can be merged (by someone other than the person who issued the pull request)
+  - You may specify the number of reviewers needed (recommend 1-2)
+- Require status checks to pass before merging
+  - This allows you to set up automatic extra checks for any pull request
+  - The default check is making sure the branch is up to date before merging
+  - You can look into integrating other checks, and some packages online exist to add checks to Github pull requests (linters, netlify, etc)
 
-### Automating Projects
+![branch-rules](./images/branch-rules.png)
 
-### Code Style
+## Issues
 
-## General Github Guidelines
+## Assigning Issues
+
+## Labeling Issues
+
+## Linking Issues
+
+## Using Projects
+
+## Automating Projects
+
+## Code Style
+
+# General Github Guidelines
 
 The following topics apply to all developers on the team, please take some time to review these to get an idea of good development practices.
 
-### Workflow: Commit Small, Commit Often
+## Workflow: Commit Small, Commit Often
 
-### Workflow: One Pull Request per Issue
+## Workflow: One Pull Request per Issue
 
-### Code Review: Assigning Reviewees
+## Code Review: Assigning Reviewees
 
-### Code Review: Pull Request/Issue Discussion Board
+## Code Review: Pull Request/Issue Discussion Board
