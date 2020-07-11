@@ -13,6 +13,24 @@ This Github organization contains the code for each of our 7 teams' projects. Ea
 
 The following topics of discussion are geared more towards Engineering Managers to help with creating an efficient project workflow. However, they can apply to all developers.
 
+## Create Your Team's Repository
+
+The home page of the RISE Github organization should have a **New** button, which you can use to create a new repository. Once you have done so, there will be instructions on how to set up the repository (linking with local repo, initial commit, etc).
+
+![new-repo](./images/new-repo.png)
+
+![create-repo](./images/create-repo.png)
+
+Once you have created and set up your repository, you need to then add it to your team so all your team members have access to the repository as well. The steps to do so from the RISE homepage are as follows:
+
+1. Navigate to the **Teams** tab
+1. Select your team
+1. Once on the team page, navigate to the **Repositories** tab
+1. You can then use the **Add repository** button to add your newly created repo
+1. After this, you can manage the permissions of your team using the dropdown next to the repo name
+
+![add-team](./images/add-team.png)
+
 ## Branch Protection
 
 To enforce code review and prevent merge mistakes, it is always good to protect your "master" branch. Github lets you do this by allowing you to require approval from other contriibutors before any pull request can be merged.
