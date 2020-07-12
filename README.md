@@ -5,7 +5,9 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code-of-conduct.md)
 
 <br>
-Welcome to the RISE Github! RISE is a summer program created for students, by students during COVID-19. Our community was born out of the desire to provide an alternative summer opportunity to students who had their internships and jobs canceled due to the global pandemic. For nine weeks (from July 6th to Sep 4th), students will work together in teams as Product Managers, Designers, and Software Engineers. RISE is the community that brought these students together and is providing the support and structure to make sure teams follow through on their projects and have a meaningful summer experience. Learn more at our <a ref="risesummer2020.org" target="_blank" >website</a>!
+
+Welcome to the RISE Github! RISE is a summer program created for students, by students during COVID-19. Our community was born out of the desire to provide an alternative summer opportunity to students who had their internships and jobs canceled due to the global pandemic. For nine weeks (from July 6th to Sep 4th), students will work together in teams as Product Managers, Designers, and Software Engineers. RISE is the community that brought these students together and is providing the support and structure to make sure teams follow through on their projects and have a meaningful summer experience. Learn more at our [website](https://risesummer2020.org)
+<br>
 
 This Github organization contains the code for each of our 7 teams' projects. Each team's individual repositories are monitored by RISE Directors and their respective Engineering Manager(s). Developers are allowed to contribute to repositories and RISE mentors are invited as outside collaborators with read-only access.
 
@@ -54,10 +56,10 @@ You can find this option when you navigate to the **Settings** tab of your repos
 
 You will be able to see a list of branch rules now. We recommend enabling the first two rules at the very least:
 
-- Require pull request reviews before merging
+- **Require pull request reviews before merging**
   - All pull requests mus tbe approved before they can be merged (by someone other than the person who issued the pull request)
   - You may specify the number of reviewers needed (recommend 1-2)
-- Require status checks to pass before merging
+- **Require status checks to pass before merging**
   - This allows you to set up automatic extra checks for any pull request
   - The default check is making sure the branch is up to date before merging
   - You can look into integrating other checks, and some packages online exist to add checks to Github pull requests (linters, netlify, etc)
@@ -66,7 +68,7 @@ You will be able to see a list of branch rules now. We recommend enabling the fi
 
 ## Code Style
 
-We recommend that you define some coding style for your team members to follow. This will ensure consistent code across all project files. This can be a verbal agreement or enforced via tools like linters, integrations with git (i.e. <a href="https://github.com/typicode/husky" target="_blank" >husky</a>), code formatters (i.e. <a href="https://prettier.io/" target="_blank" >prettier</a>), etc.
+We recommend that you define some coding style for your team members to follow. This will ensure consistent code across all project files. This can be a verbal agreement or enforced via tools like linters (i.e. [eslint](https://eslint.org/)), integrations with git (i.e. <a href="https://github.com/typicode/husky" target="_blank" >husky</a>), code formatters (i.e. <a href="https://prettier.io/" target="_blank" >prettier</a>), etc.
 
 # General Github Guidelines
 
