@@ -9,6 +9,19 @@ Welcome to the RISE Github! RISE is a summer program created for students, by st
 
 This Github organization contains the code for each of our 7 teams' projects. Each team's individual repositories are monitored by RISE Directors and their respective Engineering Manager(s). Developers are allowed to contribute to repositories and RISE mentors are invited as outside collaborators with read-only access.
 
+# Table of Contents
+
+- [EM Guidelines](#em-github-guidelines)
+  - [Create Repo](#create-your-teams-repository)
+  - [Branch Protection](#branch-protection)
+  - [Code Style](#code-style)
+- [General Guidelines](#general-github-guidelines)
+  - [Clone Repo](#clone-your-teams-repository)
+  - [Using Github Issues](#using-issues)
+  - [Using Github Projects](#using-projects)
+  - [Workflow w/ Github](#workflow)
+  - [Code Review w/ Github](#code-review)
+
 # EM Github Guidelines
 
 The following topics of discussion are geared more towards Engineering Managers to help with creating an efficient project workflow. However, they can apply to all developers.
