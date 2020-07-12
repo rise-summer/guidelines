@@ -54,10 +54,10 @@ You can find this option when you navigate to the **Settings** tab of your repos
 
 You will be able to see a list of branch rules now. We recommend enabling the first two rules at the very least:
 
-- Require pull request reviews before merging
+- **Require pull request reviews before merging**
   - All pull requests mus tbe approved before they can be merged (by someone other than the person who issued the pull request)
   - You may specify the number of reviewers needed (recommend 1-2)
-- Require status checks to pass before merging
+- **Require status checks to pass before merging**
   - This allows you to set up automatic extra checks for any pull request
   - The default check is making sure the branch is up to date before merging
   - You can look into integrating other checks, and some packages online exist to add checks to Github pull requests (linters, netlify, etc)
@@ -66,7 +66,7 @@ You will be able to see a list of branch rules now. We recommend enabling the fi
 
 ## Code Style
 
-We recommend that you define some coding style for your team members to follow. This will ensure consistent code across all project files. This can be a verbal agreement or enforced via tools like linters, integrations with git (i.e. <a href="https://github.com/typicode/husky" target="_blank" >husky</a>), code formatters (i.e. <a href="https://prettier.io/" target="_blank" >prettier</a>), etc.
+We recommend that you define some coding style for your team members to follow. This will ensure consistent code across all project files. This can be a verbal agreement or enforced via tools like linters (i.e. [eslint](https://eslint.org/)), integrations with git (i.e. <a href="https://github.com/typicode/husky" target="_blank" >husky</a>), code formatters (i.e. <a href="https://prettier.io/" target="_blank" >prettier</a>), etc.
 
 # General Github Guidelines
 
