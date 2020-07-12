@@ -119,11 +119,11 @@ Labels help categorize your issues, so that team members can get a general idea 
 
 ### Projects
 
-An issue can be placed on a project board to indicate what component of the project it is related to. See more about Using Project Boards!
+An issue can be placed on a project board to indicate what component of the project it is related to. See more about [Using Project Boards](#using-projects)!
 
 ### Linked Pull Requests
 
-Issues can be linked to specific pull requests. Often, this pull request should in some way reference the issue number. Once a pull request is linked to an issue, the issue will automatically be closed when the pull request is merged. See more in One Pull Request per Issue.
+Issues can be linked to specific pull requests. Often, this pull request should in some way reference the issue number. Once a pull request is linked to an issue, the issue will automatically be closed when the pull request is merged. See more in [One Pull Request per Issue](#one-pull-request-per-issue).
 
 ## Using Projects
 
@@ -143,7 +143,7 @@ You can add cards to the project board by using the **Add card** button. Cards c
 
 ![project-cards](./images/project-cards.png)
 
-## Automating Project Boards
+### Automating Project Boards
 
 When creating your project, we recommend you set up your columns to be automated. You can do this by selecting the **Automated kanban** template when creating a new project. When automated, issues/pull requests on your project board will automatically move from column to column depending on the status of the issue/pull request. For example, a pull request in the "In Progress" column, will move to the "Done" column after it is merged and closed.
 
