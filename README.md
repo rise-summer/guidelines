@@ -115,9 +115,23 @@ When creating your project, we recommend you set up your columns to be automated
 
 ![project-automation](./images/project-automation.png)
 
-## Workflow: Commit Small, Commit Often
+## Workflow
 
-## Workflow: One Pull Request per Issue
+### Commit Small, Commit Often
+
+Generally, it is good practice to keep all your commits small and self-contained. No commit should ever represent an entire feature. No commit should contain unrelated changes (all changes should deal with a single issue, do not combine two issues into a single commit).
+
+Committing small and often gives you more flexibility when it comes to reverting changes and tracing code history. It also helps with isolating the source of problems in your code.
+
+### One Pull Request per Issue
+
+Generally, every issue should be associated with a pull request. The pull request in question should contain changes that resolve its linked issue(s). Remember to link the pull request with the issue as shown below!
+
+![link-issue](./images/link-issue.png)
+
+All issues that are linked with the pull request will be automatically closed once the pull request is merged. Note that multiple issues can be linked to a pull request if the pull request contains changes that resolve multiple issues.
+
+Generally though, when tackling a new issue you should create and publish a new branch to later create a pull request to resolve the issue.
 
 ## Code Review: Assigning Reviewees
 
