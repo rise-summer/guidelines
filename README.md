@@ -133,6 +133,45 @@ All issues that are linked with the pull request will be automatically closed on
 
 Generally though, when tackling a new issue you should create and publish a new branch to later create a pull request to resolve the issue.
 
-## Code Review: Assigning Reviewees
+## Code Review
 
-## Code Review: Pull Request/Issue Discussion Board
+### Assigning Reviewees
+
+Whenever you create a pull request for a branch you are working on, you should always assign some reviewees to look over your work. This begins the process of code review. All reviewees will be notified that they have been assigned as a reviewer and can then view your changes and see if you made any mistakes.
+
+### Requesting Changes
+
+As a reviewer, you are able to comment on a pull request and request changes before approving the merge. Do this if you ever catch something that was missed or if you have suggestions for a change to be made.
+
+To start a review and request changes, follow these steps:
+
+1. Add comments to the lines of code that are relevant to your requested changes
+1. Click the **Start a review** button
+1. You may continue to add comments to other lines of code
+1. Once you are done making comments, click the **Finish your review** button
+1. Select the **Request changes** option and Submit
+1. Now, the pull request will show that some changes are requested
+
+![start-review](./images/start-review.png)
+![request-changes](./images/request-changes.png)
+![need-changes](./images/need-changes.png)
+
+### Responding to Requested Changes
+
+If a reviewer requests changes on your pull request, you should either rebuttal or implement those changes. Once the requested changes are resolved be sure to use the **Resolve conversation** button to indicate that the requested changes have been addressed.
+
+![resolve-conversation](./images/resolve-conversation.png)
+
+### Approving Changes
+
+Once your requested changes have been addressed, you are free to approve the changes in the pull request. Additionally, if there are no more pending reviewers, you may choose to merge the pull request.
+
+You can approve a pull request's changes using the following steps:
+
+1. Navigate to pull request's **Files changed** tab
+1. Click the **Review changes** button
+1. Select the **Approve** option and submit
+1. The pull request will now show your approval of the pull request
+
+![approve-changes](./images/approve-changes.png)
+![merge-request](./images/merge-request.png)
