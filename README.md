@@ -72,6 +72,25 @@ We recommend that you define some coding style for your team members to follow. 
 
 The following topics apply to all developers on the team, please take some time to review these to get an idea of good development practices.
 
+## Clone Your Team's Repository
+
+Use the following steps to clone your team's repository:
+
+1. Navigate to the **Teams** tab from the RISE organization page
+1. Find your team on the team board
+1. Naviagte to your team's **Repositories** tab
+1. Select your desired repo
+1. Use the **Code** button to find your repo's URL
+   - It should be of the form `https://github.com/rise-summer/[your-repo-name].git`
+1. In your command line run the following
+   - `git clone [url]`
+1. You now have a local copy of your team's remote repository!
+
+![nav-team](./images/nav-team.png)
+![team-board](./images/team-board)
+![nav-team-repo](./images/nav-team-repo.png)
+![clone-repo](./images/clone-repo.png)
+
 ## Using Issues
 
 Issues are a great way to create, keep track of, and delegate action items for your project development. All issues are organized on your repository's issue board, available for your whole team to reference at any time.
