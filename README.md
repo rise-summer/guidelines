@@ -48,16 +48,18 @@ Once you have created and set up your repository, you need to then add it to you
 
 ## Branch Protection
 
-To enforce code review and prevent merge mistakes, it is always good to protect your "master" branch. Github lets you do this by allowing you to require approval from other contriibutors before any pull request can be merged.
+To enforce code review and prevent merge mistakes, it is always good to protect your "master" branch. You can find these settings using the following steps:
 
-You can find this option when you navigate to the **Settings** tab of your repository. From here, navigate to **Branches** and you will see a page that looks similar to the one shown in the figure below. Click the **Add rule** button to apply branch rules to your "master" branch.
+1. Navigate to the **Settings** tab of your repository
+1. Nvigate to **Branches** and you will see a page that looks similar to the one shown in the figure below.
+1. Click the **Add rule** button to apply branch rules to your "master" branch.
 
 ![branch-protection](./images/branch-protection.png)
 
 You will be able to see a list of branch rules now. We recommend enabling the first two rules at the very least:
 
 - **Require pull request reviews before merging**
-  - All pull requests mus tbe approved before they can be merged (by someone other than the person who issued the pull request)
+  - All pull requests must be approved before they can be merged (by someone other than the person who issued the pull request)
   - You may specify the number of reviewers needed (recommend 1-2)
 - **Require status checks to pass before merging**
   - This allows you to set up automatic extra checks for any pull request
