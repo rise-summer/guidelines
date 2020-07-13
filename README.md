@@ -57,7 +57,7 @@ You can find this option when you navigate to the **Settings** tab of your repos
 You will be able to see a list of branch rules now. We recommend enabling the first two rules at the very least:
 
 - **Require pull request reviews before merging**
-  - All pull requests mus tbe approved before they can be merged (by someone other than the person who issued the pull request)
+  - All pull requests must be approved before they can be merged (by someone other than the person who issued the pull request)
   - You may specify the number of reviewers needed (recommend 1-2)
 - **Require status checks to pass before merging**
   - This allows you to set up automatic extra checks for any pull request
